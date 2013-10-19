@@ -32,8 +32,6 @@ public class AppendText2TextArea extends Applet {
      */
     public AppendText2TextArea()
     {
-        // initialise instance variables
-        
         // Button
         buttonAppend.setBackground(Color.green);
         buttonAppend.setLabel("Append Text");
@@ -50,15 +48,9 @@ public class AppendText2TextArea extends Applet {
    private class ButtonListener implements ActionListener {  
       public void actionPerformed(ActionEvent evt) {
          stringBuilder.append(textFieldInput.getText().toString());
+         // stringBuilder.append("\n");
          textFieldInput.setText("");
          textAreaOutput.setText(stringBuilder.toString());
       }
    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
 }
