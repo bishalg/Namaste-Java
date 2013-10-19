@@ -3,15 +3,13 @@ import java.awt.*;
 import java.awt.event.*;
 
 /**
- * Write a description of class CapitalizeApplet here.
+ * This will show example of how text can be capitalized using text field as both input and output.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Bishal Ghimire) 
+ * @version (1.0 2013-Oct)
  */
-public class CapitalizeApplet extends Applet
-{
-    // instance variables - replace the example below with your own
-    private int x;
+public class CapitalizeApplet extends Applet {
+    // instance variables
     private TextField input;
     private TextField output;
 
@@ -23,16 +21,16 @@ public class CapitalizeApplet extends Applet
         this.input = new TextField(40);
         this.output = new TextField(40);
         this.output.setEditable(false);
-        Button b = new Button("Capitalize");
+        Button button = new Button("Capitalize");
         
         // add the buttons and textfields to the layout
         this.add(input);
-        this.add(b);
+        this.add(button);
         this.add(output);
         
         // Capitaliz Action Object
         CapitalizeAction ca = new CapitalizeAction(input, output);
-        b.addActionListener(ca);
+        button.addActionListener(ca);
         this.input.addActionListener(ca);
     }
     
