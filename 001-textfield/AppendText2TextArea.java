@@ -43,12 +43,13 @@ public class AppendText2TextArea extends Applet {
         this.add(textAreaOutput);
         textFieldInput.requestFocus();        // start with focus on this field
     }
-    
-    // The listener for the button.
+   
+   // The listener for the button.
    private class ButtonListener implements ActionListener {  
       public void actionPerformed(ActionEvent evt) {
          stringBuilder.append(textFieldInput.getText().toString());
          // stringBuilder.append("\n");
+         stringBuilder.append(" ");
          textFieldInput.setText("");
          textAreaOutput.setText(stringBuilder.toString());
       }
