@@ -1,7 +1,7 @@
 GCD
 ===========
 
-![Alt text](https://github.com/bishalg/Namaste-Java/blob/master/003-math/GCD/gcd/gcd-screen-shot.png "Demo Example")
+![Alt text](http://i4.photobucket.com/albums/y118/Bishal/GitHub/gcd-screen-shot.png "Demo Example")
 
 ``` java
 
