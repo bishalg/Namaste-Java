@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=number1\ number2
+comment1.target=int\ findGCD(int,\ int)
+comment1.text=\n\ Java\ method\ to\ find\ GCD\ of\ two\ number\ using\ Euclid's\ method\n\ @return\ GDC\ of\ two\ numbers\ in\ Java\n
+numComments=2

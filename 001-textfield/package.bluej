@@ -1,8 +1,8 @@
 #BlueJ package file
 package.editor.height=400
 package.editor.width=560
-package.editor.x=704
-package.editor.y=228
+package.editor.x=252
+package.editor.y=259
 package.numDependencies=0
 package.numTargets=2
 package.showExtends=true
@@ -31,8 +31,8 @@ target2.appletHeight=500
 target2.appletWidth=500
 target2.editor.height=700
 target2.editor.width=758
-target2.editor.x=581
-target2.editor.y=96
+target2.editor.x=40
+target2.editor.y=53
 target2.height=50
 target2.name=AppendText2TextArea
 target2.naviview.expanded=false
