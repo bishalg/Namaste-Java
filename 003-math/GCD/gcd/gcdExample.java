@@ -7,7 +7,7 @@ package gcd;
 import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.*;  // For using Random function
+import java.util.*;
 import javax.swing.*;
 
 /**
